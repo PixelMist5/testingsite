@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF - 8">
+        <title>Pixel | Online Shoppimg</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awsome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class = "navbar">
+                <div class = "logo">
+                    <a href = "site.html"> <img src = "ShopLogo2.png" width="300px"></a>
+                </div>
+                <nav>
+                    <ul id="Menuitems">
+                        <li><a href = "site.html">Home</a></li>
+                        <li><a href = "products.html">Products</a></li>
+                        <li><a href = "">About</a></li>
+                </ul>
+            </nav>
+            <img src="shopping-cart.png" width="30px" height="30px">
+            <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        </div>
+         <!------>
+         <div class="small-container">
+             <div class="row row-2">
+                 <h2>All Products</h2>
+             </div>
+             <div class="row">
+                 <div class="col-4">
+                    <a href="product-detail 2.html"><img src="jord.jfif"></a>
+                    <a href="product-detail 2.html"><h4>Jordan Jumpman 2021 PF</h4></a>
+                     <p>Php 5,895.00</p>
+                 </div>
+                 <div class="col-4">
+                    <a href="product-detail.html"><img src="lebronto.jfif"></a>
+                    <a href="product-detail.html"><h4>LeBron 18 'Best 10–18'</h4></a>
+                    <p>Php 9,999.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail 4.html"><img src="westbr.jfif"> </a>
+                    <a href="product-detail 4.html"><h4>Jordan Why Not? Zer0.4 PF</h4></a>
+                    <p>Php 6,895.00</p>
+                </div>
+                <div class="col-4">
+                    <a href = "product-detail 5.html"><img src="zoom.jfif"></a>
+                    <a href = "product-detail 5.html"> <h4>Zoom Freak 2</h4></a>
+                       <p>Php 4,509.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail 3.html"><img src="test.jpg"></a>
+                    <a href="product-detail 3.html"><h4>Nike Air Max Impact 3</h4></a>
+                    <p>&#8369; 4,595.00</p>
+             </div>
+         </div>
+        </div>
+         
+         <div class="offer">
+             <div class="small-container">
+                 <div class="row">
+                     <div class="col-2">
+                         <img src="kyrie2.png" class="offer-img">
+                     </div>
+                     <div class="col-2">
+                         <p>Available Soon to all Pixel Shop!</p>
+                         <h1> Kyrie 2 Red Edition</h1>
+                         <small>The Nike Kyrie 2 best suits light, quick, and agile guards. <br> The shoe's rounded outsole, excellent traction, and low-to-the-ground cushioning  <br> are all engineered to compliment Kyrie's movements on the court.</small>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    
+         <!-----brads ------>
+         <div class="footer">
+             <div class="container">
+                 <div class="row">
+                     <div class="footer-col-1">
+                         <h3>Download Our App!</h3>
+                         <p>Our App is now available for Android and IOS Devices!</p>
+                         <div class="app-logo">
+                             <img src="play-store.png">
+                             <img src="app-store.png">
+                         </div>
+                     </div>
+                     <div class="footer-col-2">
+                     <img src="ShopLogo2.png">
+                     <p>Our target is to make sure to Sustainably Make the Pleasure and Benefits of Sports To many other possible ways!</p>
+                 </div>
+                 <div class="footer-col-3">
+                    <h3>Important Links</h3>
+                    <ul>
+                        <li>Free Vouchers</li>
+                        <li>Return Policy</li>
+                        <li>Shop Policy</li>
+                        <li>Join our Team!</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Check our Social Media</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+             </div>
+         </div>
+         </div>
+         <!--------Js Menu -------->
+         <script>
+             var Menuitems = document.getElementById("Menuitems");
+             Menuitems.style.maxHeight = "0px";
+
+             function menutoggle(){
+                 if(Menuitems.style.maxHeight == "0px")
+                    {
+                        Menuitems.style.maxHeight = "200px"
+                    }
+                else
+                    {
+                        Menuitems.style.maxHeight = "0px"
+                    }
+             }
+         </script>
+    </body>
+</html>
+
+</header>
